@@ -1,0 +1,80 @@
+html, body {
+    height: 100%!important;
+}
+
+.main-heading {
+    text-align: center!important;
+    padding-bottom: 50px;
+}
+
+.sub-heading {
+    font-size: 18px;
+}
+
+.col-md-12 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.col-md-12 .content {
+    padding: 5px 3px;
+}
+
+.col-md-6, .col-md-4, .col-md-3, .col-md-9 {
+    padding: 2px 3px!important;
+}
+
+.content span, .content p {
+    color: #7b8a8b;
+}
+
+.content small {
+    text-align: justify;
+}
+
+.content .emphasis {
+    color: black;
+    font-weight: bold;
+}
+
+.form-group {
+    padding: 2px 3px;
+    margin-bottom: 0px!important;
+}
+
+.form-group label {
+    font-size: 13px;
+    margin-bottom: 2px!important;
+}
+
+.d-flex > div {
+    padding: 2px 3px;
+}
+
+/* custom card */
+.card {
+    /* border: 2px dotted #3498db5e!important; */
+    height: 145px;
+    overflow: hidden;
+}
+.card-header {
+    color: #3498DB!important;
+    background-color:#ecf0f1!important;
+    border-bottom: none!important;
+    padding-bottom: 5px!important;
+}
+.card-body {
+    padding: 5px 10px 10px 10px!important;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+small.additional-info {
+    font-size: 9px;
+    color: rgba(44, 62, 80, 0.5);
+}
