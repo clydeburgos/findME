@@ -56,6 +56,7 @@ html, body {
     /* border: 2px dotted #3498db5e!important; */
     height: 145px;
     overflow: hidden;
+    border: 1px solid #3498DB!important;
 }
 .card-header {
     color: #3498DB!important;
