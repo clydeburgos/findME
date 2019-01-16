@@ -24,7 +24,7 @@ html, body {
     padding: 2px 3px!important;
 }
 
-.content span, .content p, .content small {
+.content span, .content p, .content small, .light {
     color: #7b8a8b;
 }
 
