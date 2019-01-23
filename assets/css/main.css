@@ -1,10 +1,12 @@
 html, body {
     height: 100%!important;
+    min-height: 100%;
+    position: relative;
 }
 .main-container {
     margin-top: 70px!important;
     height: 100%;
-    margin-bottom: 70px;
+    margin-bottom: 200px;
 }
 
 .main-heading {
