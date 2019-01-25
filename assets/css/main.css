@@ -3,6 +3,12 @@ html, body {
     min-height: 100%;
     position: relative;
 }
+
+.bg-findme {
+    background-color: #7643DE!important;
+    background-image: linear-gradient(90deg,#7643DE, #A875EC);
+}
+
 .main-container {
     margin-top: 70px!important;
     height: 100%;
