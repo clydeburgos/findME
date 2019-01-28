@@ -1,7 +1,14 @@
+/* all of these are overrides */
+
 html, body {
     height: 100%!important;
     min-height: 100%;
     position: relative;
+}
+
+.container {
+    padding: 10px!important;
+    max-width: 1250px!important;
 }
 
 .bg-findme {
@@ -67,7 +74,7 @@ html, body {
 /* custom card */
 .card {
     /* border: 2px dotted #3498db5e!important; */
-    height: 145px;
+    height: 200px;
     overflow: hidden;
     border: 1px solid #3498DB!important;
 }
@@ -75,7 +82,8 @@ html, body {
     color: #3498DB!important;
     background-color:#ecf0f1!important;
     border-bottom: none!important;
-    padding-bottom: 5px!important;
+    padding: 0.40rem 1rem!important;
+    font-size: 18px!important;
 }
 .card-body {
     padding: 5px 10px 10px 10px!important;
