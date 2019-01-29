@@ -8,7 +8,7 @@ html, body {
 
 .container {
     padding: 10px!important;
-    max-width: 1250px!important;
+    max-width: 1400px!important;
 }
 
 .bg-findme {
@@ -108,4 +108,13 @@ small.additional-info {
 .quickwork-bg {
     background-color: #6834f5!important;
     color: white!important;
+}
+
+
+.bounty {
+    font-size: 13px!important;
+}
+
+.sub-header, .silent {
+    color: #95a5a6;
 }
