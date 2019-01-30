@@ -12,8 +12,8 @@ html, body {
 }
 
 .bg-findme {
-    background-color: #7643DE!important;
-    background-image: linear-gradient(90deg,#7643DE, #A875EC);
+    background-color: #7282FC!important;
+    background-image: linear-gradient(90deg,#7282FC, #7934FB);
 }
 
 .main-container {
@@ -74,7 +74,6 @@ html, body {
 /* custom card */
 .card {
     /* border: 2px dotted #3498db5e!important; */
-    height: 200px;
     overflow: hidden;
     border: 1px solid #3498DB!important;
 }
@@ -87,6 +86,9 @@ html, body {
 }
 .card-body {
     padding: 5px 10px 10px 10px!important;
+    height: 200px;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .avatar {
