@@ -8,8 +8,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="stylesheet" href="../assets/css/main.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript">
+      $(document).ready(function(){
+          $(window).on('scroll', function(){
+            if(window.location.pathname.toLocaleLowerCase().indexOf('index') > -1) { 
+              if($(window).scrollTop()){
+                $('.header .navbar').addClass('bg-findme');
+              }
+              else {
+                  $('.header .navbar').removeClass('bg-findme');
+              }
+            }
+          });
+          
+          $($('.bs-component').not(':first')).removeClass('bs-component').addClass('bs-component-inner');
+      });
+  </script>
 <link rel="stylesheet" href="styles.285328e151525c5c54b0.css"></head>
 <body>
   <app-root></app-root>
-<script type="text/javascript" src="runtime.ec2944dd8b20ec099bf3.js"></script><script type="text/javascript" src="polyfills.1ef83d22ada557f4a131.js"></script><script type="text/javascript" src="scripts.806effac119676237f10.js"></script><script type="text/javascript" src="main.04f7f97f6b93cd968dcc.js"></script></body>
+<script type="text/javascript" src="runtime.ec2944dd8b20ec099bf3.js"></script><script type="text/javascript" src="polyfills.1ef83d22ada557f4a131.js"></script><script type="text/javascript" src="scripts.806effac119676237f10.js"></script><script type="text/javascript" src="main.6138a7cbfd5e2f4c30db.js"></script></body>
 </html>
