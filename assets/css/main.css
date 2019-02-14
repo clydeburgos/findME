@@ -1,9 +1,41 @@
 /* all of these are overrides */
+@font-face {
+    font-family: "AtlasGrotesk-Regular";
+    src: url("../../assets/fonts/AtlasGrotesk-Regular-Web.woff2");
+    src: url("../../assets/fonts/AtlasGrotesk-Regular-Web.woff2") format("woff"),
+}
+
+@font-face {
+    font-family: "AtlasGrotesk-Thin";
+    src: url("../../assets/fonts/AtlasGrotesk-Thin-Web.woff2");
+    src: url("../../assets/fonts/AtlasGrotesk-Thin-Web.woff2") format("woff"),
+}
+
+@font-face {
+    font-family: "AtlasGrotesk-Bold";
+    src: url("../../assets/fonts/AtlasGrotesk-Bold-Web.woff2");
+    src: url("../../assets/fonts/AtlasGrotesk-Bold-Web.woff2") format("woff"),
+}
 
 html, body {
     height: 100%!important;
     min-height: 100%;
     position: relative;
+    font-family: 'AtlasGrotesk-Thin', sans-serif!important;
+    font-size: 1.0rem!important;
+}
+
+.main-heading, .navbar, .card-header, .lead {
+    font-family: 'AtlasGrotesk-Regular', sans-serif!important;
+    font-weight: bold;
+}
+
+input,textarea, button {
+    /* border-radius: 1rem!important; */
+}
+
+.btn {
+    font-weight: bold!important;
 }
 
 .container {
@@ -20,8 +52,8 @@ html, body {
 }
 
 .bs-component-inner {
-    padding-right: 25px!important;
-    padding-left: 25px!important;
+    /* padding-right: 25px!important;
+    padding-left: 25px!important; */
 }
 
 .main-container {
@@ -30,10 +62,17 @@ html, body {
 }
 
 .bg-findme {
-    background-color: #7282FC!important;
+    /* background-color: #7282FC!important;
     background-image: linear-gradient(90deg,#7282FC, #7934FB);
     box-shadow: 0 3px 4px 0px rgba(0, 0, 0, 0.15) !important;
+    transition: 1s; */
+
+    box-shadow: 0 3px 4px 0px rgba(0, 0, 0, 0.15) !important;
     transition: 1s;
+
+    background-blend-mode: overlay;
+    background-color: initial!important;
+    background-image: url(../images/nav-filler.png),linear-gradient(142deg,#3b2dcf 1%,#a91b78 100%)!important;
 }
 
 .navbar {
@@ -41,10 +80,15 @@ html, body {
     transition: 1s;
 }
 
+.nav-item .nav-link {
+    font-size: 16px;
+}
+
 .main-heading {
     /* padding-top: 70px; */
     text-align: center!important;
     font-size: 37px!important;
+    font-weight: bold;
     /* padding-bottom: 50px; */
 }
 
@@ -88,6 +132,10 @@ html, body {
     margin-bottom: 2px!important;
 }
 
+label {
+    font-weight: bold;
+}
+
 .d-flex > div {
     padding: 2px 3px;
 }
@@ -104,6 +152,7 @@ html, body {
     border-bottom: none!important;
     padding: 0.40rem 1rem!important;
     font-size: 18px!important;
+    font-weight: bold;
 }
 .card-body {
     padding: 5px 10px 10px 10px!important;
@@ -120,8 +169,12 @@ html, body {
 }
 
 small.additional-info {
-    font-size: 9px;
-    color: rgba(44, 62, 80, 0.5);
+    font-size: 11px!important;
+    color: rgba(44, 62, 80, 0.9)!important;
+}
+
+.quick-preview {
+    font-size: 11px!important;
 }
 
 #toast-container > div {
@@ -138,32 +191,43 @@ small.additional-info {
     font-size: 13px!important;
 }
 
+.sub-header {
+    font-weight: bold;
+}
 .sub-header, .silent {
     color: #95a5a6;
 }
+
+.about {
+    white-space: pre-line;
+}
+
 .main-section {
-    padding-top: 80px!important;
+    padding-top: 150px!important;
     padding-left: 50px;
     padding-right: 50px;
     background-color: #002c58;
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #4d5656bf)), url(../images/bg.jpg);
-    background-image: linear-gradient(180deg, rgba(104, 52, 245, .8) 25%), url(../images/bg.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #4d5656bf)), url(../images/bg1.jpg);
+    background-image: linear-gradient(180deg, rgba(104, 52, 245, .8) 25%), url(../images/bg1.jpg);
     background-position: 0px 0px, 50% 50%;
     background-size: auto, cover;
     background-repeat: repeat, no-repeat;
-    height: 450px;
+    height: 750px;
     color: #ffffff;
     box-sizing: border-box;
 }
 
 #contact {
-    background-color: #002c58;
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #4d5656bf)), url(https://thesweetsetup.com/wp-content/uploads/2014/04/20140421-20140421_8.jpg);
+    background-color: #2c2c35!important;
+    /* background-image: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #4d5656bf)), url(https://thesweetsetup.com/wp-content/uploads/2014/04/20140421-20140421_8.jpg);
     background-image: linear-gradient(180deg, rgba(104, 52, 245, .8) 25%), url(https://thesweetsetup.com/wp-content/uploads/2014/04/20140421-20140421_8.jpg);
     background-position: 0px 0px, 50% 50%;
-    background-size: auto, cover;
+    background-size: auto, cover; */
     background-repeat: repeat, no-repeat;
     color: #ffffff;
     box-sizing: border-box;
 }
-/* alert */
+
+h2, .footer .text-uppercase {
+    font-weight: bold!important;
+}
