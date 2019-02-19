@@ -236,3 +236,13 @@ small.additional-info {
 h2, .footer .text-uppercase {
     font-weight: bold!important;
 }
+
+/* LOGIN */
+.login-left-panel {
+    background-image: linear-gradient(129deg,#a91b78 0%,#392dd1 100%),url(../../assets/images/bg-texture.jpg)!important;
+}
+
+/* GENERAL */
+.main-heading {
+    display: none!important;
+}
