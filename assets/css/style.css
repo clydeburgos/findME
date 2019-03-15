@@ -9427,13 +9427,13 @@ textarea.form-control {
 }
 
 .component-header {
-  max-height: 250px;
-  height: 250px;
+  max-height: 150px;
+  height: 150px;
 
 }
 
 .component-header-content {
-  padding-top: 100px;
+  padding-top: 5px;
 }
 
 .title h2, .title h5 {
