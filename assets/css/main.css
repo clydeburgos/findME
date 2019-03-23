@@ -249,3 +249,7 @@ h2, .footer .text-uppercase {
 .main-heading {
     display: none!important;
 }
+
+.empty-list-icon {
+    height: 64px;
+}
